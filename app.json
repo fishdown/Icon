@@ -4,6 +4,10 @@
     "icons": [
         {
             "name": "loon",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon-icon.png"
+        },
+        {
+            "name": "loon",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
         },
         {
@@ -11,8 +15,8 @@
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/10qq.png"
         },
         {
-            "name": "apptf",
-            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/apptf.png"
+            "name": "testflight",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/testflight.png"
         },
         {
             "name": "B612",
@@ -44,7 +48,7 @@
         },
         {
             "name": "ddcxgy",
-            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ddcxgy.png"
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ddgy.png"
         },
         {
             "name": "dsj",
@@ -53,6 +57,10 @@
         {
             "name": "dy",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/dy.png"
+        },
+        {
+            "name": "elm",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/elm.png"
         },
         {
             "name": "fqxs",
@@ -77,6 +85,10 @@
         {
             "name": "jrtt",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jrtt.png"
+        },
+        {
+            "name": "jrtt",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jrttjsb.png"
         },
         {
             "name": "kwyy",
@@ -109,6 +121,10 @@
         {
             "name": "shadowsocks",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/shadowsocks.png"
+        },
+        {
+            "name": "shadowsocks",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/shadowsocks-icon.png"
         },
         {
             "name": "smzdm",
@@ -187,8 +203,8 @@
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ksjsb.png"
         },
         {
-            "name": "mt",
-            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/mt.png"
+            "name": "meituan",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/meituan.png"
         },
         {
             "name": "dsmc",
@@ -265,6 +281,50 @@
         {
             "name": "xhsyj",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xhsyj.png"
+        },
+        {
+            "name": "jindian",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jindian.png"
+        },
+        {
+            "name": "wyyyy",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wyyyy.png"
+        },
+        {
+            "name": "bjxd",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bjxd.png"
+        },
+        {
+            "name": "bjqc",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bjqc.png"
+        },
+        {
+            "name": "aokang",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/aokang.png"
+        },
+        {
+            "name": "tyklxq",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tyklxq.png"
+        },
+        {
+            "name": "wztyygj",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wztyygj.png"
+        },
+        {
+            "name": "fhrs",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fhrs.png"
+        },
+        {
+            "name": "tyrj",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tyrj.png"
+        },
+        {
+            "name": "kele",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kele.png"
+        },
+        {
+            "name": "leshi",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/leshi.png"
         }
     ]
 }

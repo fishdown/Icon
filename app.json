@@ -329,6 +329,10 @@
         {
             "name": "epic",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/epic.png"
+        },
+        {
+            "name": "alyp",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
         }
     ]
 }

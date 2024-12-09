@@ -333,6 +333,10 @@
         {
             "name": "alyp",
             "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
+        },
+        {
+            "name": "coffee",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/coffee.png"
         }
     ]
 }

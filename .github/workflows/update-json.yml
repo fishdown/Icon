@@ -1,4 +1,4 @@
-name: Update app.json when new icons are added
+name: Update app.json when new icons are added or removed
 
 on:
   push:
@@ -29,5 +29,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add app.json
-          git commit -m "Auto-update app.json with new icons" || echo "No changes to commit"
+          git commit -m "Auto-update app.json with added/removed icons" || echo "No changes to commit"
           git push

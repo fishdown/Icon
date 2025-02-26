@@ -24,13 +24,26 @@ async function updateJsonFile() {
       .filter(file => /\.(png|jpg|jpeg|svg|gif)$/i.test(file)); // 只保留图片格式
 
     // 生成新的 `icons` 数组（基于 app/ 目录实际内容）
-    const updatedIcons = existingFiles.map(file => ({
+    let updatedIcons = existingFiles.map(file => ({
       name: path.basename(file, path.extname(file)), // 去掉扩展名
       url: repoRawURL + file
     }));
 
-    // **直接替换** `app.json` 中的 icons 数组，保持与 `app/` 目录一致
-    jsonData.icons = updatedIcons;
+    // 处理 loon-icon 和 loon 的顺序
+    const loonIcon = updatedIcons.find(icon => icon.name === "loon-icon");
+    const loon = updatedIcons.find(icon => icon.name === "loon");
+
+    // 过滤掉 loon-icon 和 loon，避免重复添加
+    updatedIcons = updatedIcons.filter(icon => icon.name !== "loon-icon" && icon.name !== "loon");
+
+    // 确保 loon-icon 在第一位，loon 在第二位
+    const finalIcons = [];
+    if (loonIcon) finalIcons.push(loonIcon);
+    if (loon) finalIcons.push(loon);
+    finalIcons.push(...updatedIcons); // 追加剩余的图标
+
+    // 直接替换 `app.json` 中的 icons 数组，保持与 `app/` 目录一致
+    jsonData.icons = finalIcons;
 
     // 写回 JSON 文件
     await fs.writeJson(jsonFilePath, jsonData, { spaces: 2 });

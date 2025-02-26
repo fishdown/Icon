@@ -1,0 +1,33 @@
+name: Update app.json with new icons
+
+on:
+  push:
+    paths:
+      - "app/**"   # 监听 app 目录下的所有变更
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install fs-extra
+
+      - name: Update app.json
+        run: node update-json.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add app.json
+          git commit -m "Auto-update app.json with new icons" || echo "No changes to commit"
+          git push

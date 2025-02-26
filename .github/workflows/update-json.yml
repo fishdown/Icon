@@ -1,4 +1,4 @@
-name: Update app.json with new icons
+name: Update app.json when new icons are added
 
 on:
   push:

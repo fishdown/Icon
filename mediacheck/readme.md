@@ -1,1 +1,0 @@
-mediacheck icon

@@ -19,38 +19,24 @@ async function updateJsonFile() {
       jsonData.icons = [];
     }
 
-    // 获取 `app/` 目录下当前存在的图片文件
+    // 获取 `app/` 目录下当前实际存在的图片文件
     const existingFiles = fs.readdirSync(iconsDir)
-      .filter(file => /\.(png|jpg|jpeg|svg|gif)$/.test(file));
+      .filter(file => /\.(png|jpg|jpeg|svg|gif)$/i.test(file)); // 只保留图片格式
 
-    // 生成新的 `icons` 数组
+    // 生成新的 `icons` 数组（基于 app/ 目录实际内容）
     const updatedIcons = existingFiles.map(file => ({
       name: path.basename(file, path.extname(file)), // 去掉扩展名
       url: repoRawURL + file
     }));
 
-    // 检查 `app.json` 中是否有已删除的文件
-    const updatedUrls = new Set(updatedIcons.map(icon => icon.url));
-
-    // 过滤掉 `app.json` 中不存在于 `app/` 目录的图标
-    jsonData.icons = jsonData.icons.filter(icon => updatedUrls.has(icon.url));
-
-    // 计算新增的图标
-    const newIcons = updatedIcons.filter(icon => !jsonData.icons.some(e => e.url === icon.url));
-
-    if (newIcons.length === 0 && jsonData.icons.length === updatedIcons.length) {
-      console.log("No changes needed.");
-      return;
-    }
-
-    // 添加新图标
-    jsonData.icons.push(...newIcons);
+    // **直接替换** `app.json` 中的 icons 数组，保持与 `app/` 目录一致
+    jsonData.icons = updatedIcons;
 
     // 写回 JSON 文件
     await fs.writeJson(jsonFilePath, jsonData, { spaces: 2 });
-    console.log("Updated app.json successfully.");
+    console.log("✅ app.json has been updated to match app/ folder.");
   } catch (error) {
-    console.error("Error updating app.json:", error);
+    console.error("❌ Error updating app.json:", error);
     process.exit(1);
   }
 }

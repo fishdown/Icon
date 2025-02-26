@@ -3,8 +3,20 @@
   "description": "部分app图标,@fishdown",
   "icons": [
     {
+      "name": "loon-icon",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon-icon.png"
+    },
+    {
+      "name": "loon",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
+    },
+    {
       "name": "10qq",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/10qq.png"
+    },
+    {
+      "name": "2",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/2.png"
     },
     {
       "name": "B612",
@@ -165,14 +177,6 @@
     {
       "name": "llt",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/llt.png"
-    },
-    {
-      "name": "loon-icon",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon-icon.png"
-    },
-    {
-      "name": "loon",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
     },
     {
       "name": "lrts",

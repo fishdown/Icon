@@ -1,58 +1,70 @@
 const fs = require("fs-extra");
 const path = require("path");
 
-const jsonFilePath = "app.json"; // JSON 文件路径
-const iconsDir = "app/"; // 监听的图标文件夹
-const repoRawURL = "https://raw.githubusercontent.com/fishdown/Icon/master/app/"; // GitHub RAW 地址
+const jsonFilePath = "app.json";
+const iconsDir = "app/";
+const repoRawURL = "https://raw.githubusercontent.com/fishdown/Icon/master/app/";
 
 async function updateJsonFile() {
   try {
-    // 读取 JSON 文件（如果不存在，则创建默认结构）
     let jsonData = await fs.readJson(jsonFilePath).catch(() => ({
       name: "app",
       description: "部分app图标,@fishdown",
       icons: []
     }));
 
-    // 确保 JSON 数据包含 icons 数组
     if (!Array.isArray(jsonData.icons)) {
       jsonData.icons = [];
     }
 
-    // 获取 `app/` 目录下当前实际存在的图片文件
-    const existingFiles = fs.readdirSync(iconsDir)
-      .filter(file => /\.(png|jpg|jpeg|svg|gif)$/i.test(file)); // 只保留图片格式
+    // 当前文件夹下的文件
+    const currentFiles = fs.readdirSync(iconsDir)
+      .filter(file => /\.(png|jpg|jpeg|svg|gif)$/i.test(file));
+    const currentFileSet = new Set(currentFiles);
 
-    // 生成新的 `icons` 数组（基于 app/ 目录实际内容）
-    let updatedIcons = existingFiles.map(file => ({
-      name: path.basename(file, path.extname(file)), // 去掉扩展名
-      url: repoRawURL + file
-    }));
+    // 1️⃣ 移除已删除的图片
+    jsonData.icons = jsonData.icons.filter(icon => {
+      const filename = icon.url.split("/").pop();
+      return currentFileSet.has(filename);
+    });
 
-    // 处理 loon-icon 和 loon 的顺序
-    const loonIcon = updatedIcons.find(icon => icon.name === "loon-icon");
-    const loon = updatedIcons.find(icon => icon.name === "loon");
+    // 2️⃣ 追加新图片
+    const existingFilenames = new Set(jsonData.icons.map(icon => icon.url.split("/").pop()));
+    for (const file of currentFiles) {
+      if (!existingFilenames.has(file)) {
+        jsonData.icons.push({
+          name: path.basename(file, path.extname(file)),
+          url: repoRawURL + file
+        });
+      }
+    }
 
-    // 过滤掉 loon-icon 和 loon，避免重复添加
-    updatedIcons = updatedIcons.filter(icon => icon.name !== "loon-icon" && icon.name !== "loon");
+    // 3️⃣ 确保 loon-icon 和 loon 在前两位
+    const loonIconIndex = jsonData.icons.findIndex(icon => icon.name === "loon-icon");
+    const loonIndex = jsonData.icons.findIndex(icon => icon.name === "loon");
 
-    // 确保 loon-icon 在第一位，loon 在第二位
-    const finalIcons = [];
-    if (loonIcon) finalIcons.push(loonIcon);
-    if (loon) finalIcons.push(loon);
-    finalIcons.push(...updatedIcons); // 追加剩余的图标
+    const reordered = [];
 
-    // 直接替换 `app.json` 中的 icons 数组，保持与 `app/` 目录一致
-    jsonData.icons = finalIcons;
+    if (loonIconIndex !== -1) {
+      reordered.push(jsonData.icons.splice(loonIconIndex, 1)[0]);
+    }
 
-    // 写回 JSON 文件
+    if (loonIndex !== -1) {
+      // 如果 loon-icon 原来在 loon 前面，它的 index 会减少 1
+      const adjustedIndex = loonIconIndex !== -1 && loonIndex > loonIconIndex ? loonIndex - 1 : loonIndex;
+      reordered.push(jsonData.icons.splice(adjustedIndex, 1)[0]);
+    }
+
+    // 把剩下的 append-only 顺序内容接上
+    reordered.push(...jsonData.icons);
+    jsonData.icons = reordered;
+
     await fs.writeJson(jsonFilePath, jsonData, { spaces: 2 });
-    console.log("✅ app.json has been updated to match app/ folder.");
+    console.log("✅ app.json updated (loon-icon & loon first, others appended).");
   } catch (error) {
-    console.error("❌ Error updating app.json:", error);
+    console.error("❌ Error:", error);
     process.exit(1);
   }
 }
 
-// 运行更新函数
 updateJsonFile();

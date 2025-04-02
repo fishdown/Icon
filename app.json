@@ -453,6 +453,14 @@
     {
       "name": "haijiao",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/haijiao.png"
+    },
+    {
+      "name": "yheb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/yheb.png"
+    },
+    {
+      "name": "yhebp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/yhebp.png"
     }
   ]
 }

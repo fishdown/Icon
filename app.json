@@ -469,6 +469,10 @@
     {
       "name": "awaeb",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/awaeb.png"
+    },
+    {
+      "name": "predeb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/predeb.png"
     }
   ]
 }

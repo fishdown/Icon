@@ -473,6 +473,10 @@
     {
       "name": "predeb",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/predeb.png"
+    },
+    {
+      "name": "jmzyios",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jmzyios.png"
     }
   ]
 }

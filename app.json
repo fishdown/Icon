@@ -489,6 +489,10 @@
     {
       "name": "baby",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baby.png"
+    },
+    {
+      "name": "tdjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tdjc.png"
     }
   ]
 }

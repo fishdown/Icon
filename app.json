@@ -509,6 +509,10 @@
     {
       "name": "hawk",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hawk.png"
+    },
+    {
+      "name": "onyra",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/onyra.png"
     }
   ]
 }

@@ -1,5 +1,402 @@
 {
   "name": "app",
   "description": "部分app图标,@fishdown",
-  "icons": []
+  "icons": [
+    {
+      "name": "loon-icon",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon-icon.png"
+    },
+    {
+      "name": "loon",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
+    },
+    {
+      "name": "3n2b",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/3n2b.png"
+    },
+    {
+      "name": "69yeb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/69yeb.png"
+    },
+    {
+      "name": "B612",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/B612.png"
+    },
+    {
+      "name": "adguard",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/adguard.png"
+    },
+    {
+      "name": "alyp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
+    },
+    {
+      "name": "baby",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baby.png"
+    },
+    {
+      "name": "bdtb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bdtb.png"
+    },
+    {
+      "name": "bdwp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bdwp.png"
+    },
+    {
+      "name": "blbl",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/blbl.png"
+    },
+    {
+      "name": "bmjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bmjc.png"
+    },
+    {
+      "name": "cfish",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/cfish.png"
+    },
+    {
+      "name": "cmdj",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/cmdj.png"
+    },
+    {
+      "name": "coffee",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/coffee.png"
+    },
+    {
+      "name": "cytq",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/cytq.png"
+    },
+    {
+      "name": "ddcx",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ddcx.png"
+    },
+    {
+      "name": "ddgy",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ddgy.png"
+    },
+    {
+      "name": "dsenrp55",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/dsenrp55.png"
+    },
+    {
+      "name": "duitang",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/duitang.png"
+    },
+    {
+      "name": "dy",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/dy.png"
+    },
+    {
+      "name": "elm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/elm.png"
+    },
+    {
+      "name": "epic",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/epic.png"
+    },
+    {
+      "name": "fqxs",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fqxs.png"
+    },
+    {
+      "name": "google",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/google.png"
+    },
+    {
+      "name": "gqcq",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/gqcq.png"
+    },
+    {
+      "name": "haijiao",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/haijiao.png"
+    },
+    {
+      "name": "hawk",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hawk.png"
+    },
+    {
+      "name": "hgdj",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hgdj.png"
+    },
+    {
+      "name": "hyjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hyjc.png"
+    },
+    {
+      "name": "jd",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jd.png"
+    },
+    {
+      "name": "jdzb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jdzb.png"
+    },
+    {
+      "name": "jmzyios",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jmzyios.png"
+    },
+    {
+      "name": "jrtt",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jrtt.png"
+    },
+    {
+      "name": "jrttjsb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jrttjsb.png"
+    },
+    {
+      "name": "jsb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jsb.png"
+    },
+    {
+      "name": "kdf",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kdf.png"
+    },
+    {
+      "name": "kdf2",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kdf2.png"
+    },
+    {
+      "name": "kwyy",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kwyy.png"
+    },
+    {
+      "name": "lrts",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/lrts.png"
+    },
+    {
+      "name": "mdcm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/mdcm.png"
+    },
+    {
+      "name": "meituan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/meituan.png"
+    },
+    {
+      "name": "missav",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/missav.png"
+    },
+    {
+      "name": "myxj",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/myxj.png"
+    },
+    {
+      "name": "nasa",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/nasa.png"
+    },
+    {
+      "name": "nmxjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/nmxjc.png"
+    },
+    {
+      "name": "okl",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/okl.png"
+    },
+    {
+      "name": "pdd",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/pdd.png"
+    },
+    {
+      "name": "price",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/price.png"
+    },
+    {
+      "name": "qyxj",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/qyxj.png"
+    },
+    {
+      "name": "setu",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/setu.png"
+    },
+    {
+      "name": "smzdm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/smzdm.png"
+    },
+    {
+      "name": "ss",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ss.png"
+    },
+    {
+      "name": "sys",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/sys.png"
+    },
+    {
+      "name": "tclx",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tclx.png"
+    },
+    {
+      "name": "tdjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tdjc.png"
+    },
+    {
+      "name": "testflight",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/testflight.png"
+    },
+    {
+      "name": "tls",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tls.png"
+    },
+    {
+      "name": "tqjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tqjc.png"
+    },
+    {
+      "name": "tt",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/tt.png"
+    },
+    {
+      "name": "unsubscribe",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/unsubscribe.png"
+    },
+    {
+      "name": "wps",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png"
+    },
+    {
+      "name": "wx",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wx.png"
+    },
+    {
+      "name": "wyyjc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wyyjc.png"
+    },
+    {
+      "name": "wyyyy",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wyyyy.png"
+    },
+    {
+      "name": "xmyd",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xmyd.png"
+    },
+    {
+      "name": "yucheng",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/yucheng.png"
+    },
+    {
+      "name": "zfb",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zfb.png"
+    },
+    {
+      "name": "zgtycp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zgtycp.png"
+    },
+    {
+      "name": "zzeb-NanflixUSA",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-NanflixUSA.png"
+    },
+    {
+      "name": "zzeb-PrejuDice",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-PrejuDice.png"
+    },
+    {
+      "name": "zzeb-cherry",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-cherry.png"
+    },
+    {
+      "name": "zzeb-erciyuan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-erciyuan.png"
+    },
+    {
+      "name": "zzeb-feiniu",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-feiniu.png"
+    },
+    {
+      "name": "zzeb-feiyue",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-feiyue.png"
+    },
+    {
+      "name": "zzeb-hka",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-hka.png"
+    },
+    {
+      "name": "zzeb-linjing",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-linjing.png"
+    },
+    {
+      "name": "zzeb-liuxing",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-liuxing.png"
+    },
+    {
+      "name": "zzeb-maoyan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-maoyan.png"
+    },
+    {
+      "name": "zzeb-miaolegemi",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-miaolegemi.png"
+    },
+    {
+      "name": "zzeb-nezha",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-nezha.png"
+    },
+    {
+      "name": "zzeb-paolu",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-paolu.png"
+    },
+    {
+      "name": "zzeb-pcm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-pcm.png"
+    },
+    {
+      "name": "zzeb-pianke",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-pianke.png"
+    },
+    {
+      "name": "zzeb-qidianzhan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-qidianzhan.png"
+    },
+    {
+      "name": "zzeb-ruji",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-ruji.png"
+    },
+    {
+      "name": "zzeb-ruji2",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-ruji2.png"
+    },
+    {
+      "name": "zzeb-saturday",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-saturday.png"
+    },
+    {
+      "name": "zzeb-star",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-star.png"
+    },
+    {
+      "name": "zzeb-star2",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-star2.png"
+    },
+    {
+      "name": "zzeb-tanhua",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-tanhua.png"
+    },
+    {
+      "name": "zzeb-wenjianfu",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-wenjianfu.png"
+    },
+    {
+      "name": "zzeb-wujieyun",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-wujieyun.png"
+    },
+    {
+      "name": "zzeb-yingji",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-yingji.png"
+    },
+    {
+      "name": "zzeb-youno",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-youno.png"
+    },
+    {
+      "name": "zzeb-yuebing",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-yuebing.png"
+    },
+    {
+      "name": "zzeb-yunhai",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-yunhai.png"
+    },
+    {
+      "name": "zzeb-yunhai2",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-yunhai2.png"
+    },
+    {
+      "name": "zzeb-yunyun",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-yunyun.png"
+    }
+  ]
 }

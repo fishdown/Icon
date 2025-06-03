@@ -417,6 +417,10 @@
     {
       "name": "panda",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/panda.png"
+    },
+    {
+      "name": "missav",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/missav.png"
     }
   ]
 }

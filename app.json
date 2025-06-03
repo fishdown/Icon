@@ -413,6 +413,10 @@
     {
       "name": "quark",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/quark.png"
+    },
+    {
+      "name": "toptoons",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/toptoons.png"
     }
   ]
 }

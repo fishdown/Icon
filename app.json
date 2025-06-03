@@ -417,6 +417,10 @@
     {
       "name": "toptoons",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/toptoons.png"
+    },
+    {
+      "name": "panda",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/panda.png"
     }
   ]
 }

@@ -501,6 +501,10 @@
     {
       "name": "zzeb-oncloud",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-oncloud.png"
+    },
+    {
+      "name": "zzeb-zox",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-zox.png"
     }
   ]
 }

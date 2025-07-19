@@ -533,6 +533,10 @@
     {
       "name": "zzeb-star2",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-star2.png"
+    },
+    {
+      "name": "zzeb-sntp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-sntp.png"
     }
   ]
 }

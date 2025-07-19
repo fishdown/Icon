@@ -525,6 +525,10 @@
     {
       "name": "aliyun",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/aliyun.png"
+    },
+    {
+      "name": "zzeb-misty",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-misty.png"
     }
   ]
 }

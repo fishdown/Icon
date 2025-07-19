@@ -537,6 +537,10 @@
     {
       "name": "zzeb-sntp",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-sntp.png"
+    },
+    {
+      "name": "zzeb-kfc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-kfc.png"
     }
   ]
 }

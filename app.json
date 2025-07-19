@@ -525,6 +525,10 @@
     {
       "name": "zzeb-misty",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-misty.png"
+    },
+    {
+      "name": "zzeb-star",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-star.png"
     }
   ]
 }

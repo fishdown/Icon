@@ -585,6 +585,10 @@
     {
       "name": "github",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/github.png"
+    },
+    {
+      "name": "xiaobai",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaobai.png"
     }
   ]
 }

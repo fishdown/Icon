@@ -597,6 +597,10 @@
     {
       "name": "weigg",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/weigg.png"
+    },
+    {
+      "name": "fishdown",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fishdown.png"
     }
   ]
 }

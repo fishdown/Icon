@@ -39,6 +39,10 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baby.png"
     },
     {
+      "name": "xiaobai",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaobai.png"
+    },
+    {
       "name": "bdtb",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/bdtb.png"
     },
@@ -585,10 +589,6 @@
     {
       "name": "github",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/github.png"
-    },
-    {
-      "name": "xiaobai",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaobai.png"
     }
   ]
 }

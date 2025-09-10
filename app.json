@@ -27,6 +27,14 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
     },
     {
+      "name": "weigg",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/weigg.png"
+    },
+    {
+      "name": "fishdown",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fishdown.png"
+    },
+    {
       "name": "baby",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baby.png"
     },
@@ -577,14 +585,6 @@
     {
       "name": "github",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/github.png"
-    },
-    {
-      "name": "weigg",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/weigg.png"
-    },
-    {
-      "name": "fishdown",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fishdown.png"
     }
   ]
 }

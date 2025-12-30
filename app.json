@@ -721,6 +721,10 @@
     {
       "name": "porn",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/porn.png"
+    },
+    {
+      "name": "xiaomi",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaomi.jpg"
     }
   ]
 }

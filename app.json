@@ -717,6 +717,10 @@
     {
       "name": "zzeb-cookie",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-cookie.png"
+    },
+    {
+      "name": "zzeb-zhousanwan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-zhousanwan.png"
     }
   ]
 }

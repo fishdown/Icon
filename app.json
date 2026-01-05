@@ -725,6 +725,10 @@
     {
       "name": "xiaomi",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaomi.png"
+    },
+    {
+      "name": "zzeb-ETFLIX",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-ETFLIX.png"
     }
   ]
 }

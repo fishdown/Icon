@@ -733,6 +733,10 @@
     {
       "name": "zzeb-TFTV",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-TFTV.png"
+    },
+    {
+      "name": "zzeb-gousen",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-gousen.png"
     }
   ]
 }

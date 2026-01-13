@@ -749,6 +749,14 @@
     {
       "name": "zzeb-jieshu",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-jieshu.png"
+    },
+    {
+      "name": "zzeb-hg",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-hg.png"
+    },
+    {
+      "name": "zzeb-wuju",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-wuju.png"
     }
   ]
 }

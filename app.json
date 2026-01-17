@@ -19,14 +19,6 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/adguard.png"
     },
     {
-      "name": "alyp",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
-    },
-    {
-      "name": "weigg",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/weigg.png"
-    },
-    {
       "name": "fishdown",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/fishdown.png"
     },
@@ -35,8 +27,24 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baby.png"
     },
     {
+      "name": "weigg",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/weigg.png"
+    },
+    {
       "name": "xiaobai",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiaobai.png"
+    },
+    {
+      "name": "chxm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/chxm.png"
+    },
+    {
+      "name": "jshen",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jshen.png"
+    },
+    {
+      "name": "alyp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/alyp.png"
     },
     {
       "name": "bdtb",
@@ -757,14 +765,6 @@
     {
       "name": "zzeb-wuju",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-wuju.png"
-    },
-    {
-      "name": "chxm",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/chxm.png"
-    },
-    {
-      "name": "jshen",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/jshen.png"
     },
     {
       "name": "pear",

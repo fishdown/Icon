@@ -817,6 +817,10 @@
     {
       "name": "hxsp",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hxsp.png"
+    },
+    {
+      "name": "sssp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/sssp.png"
     }
   ]
 }

@@ -797,6 +797,10 @@
     {
       "name": "google",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/google.png"
+    },
+    {
+      "name": "quark",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/quark.png"
     }
   ]
 }

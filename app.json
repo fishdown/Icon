@@ -789,6 +789,10 @@
     {
       "name": "zzeb-mirai",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-mirai.png"
+    },
+    {
+      "name": "kugou",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kugou.png"
     }
   ]
 }

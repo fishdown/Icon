@@ -797,6 +797,10 @@
     {
       "name": "youtube",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/youtube.png"
+    },
+    {
+      "name": "shunfeng",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/shunfeng.png"
     }
   ]
 }

@@ -829,6 +829,10 @@
     {
       "name": "zblp",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zblp.png"
+    },
+    {
+      "name": "one",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/one.png"
     }
   ]
 }

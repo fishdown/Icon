@@ -793,6 +793,10 @@
     {
       "name": "shunfeng",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/shunfeng.png"
+    },
+    {
+      "name": "google",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/google.png"
     }
   ]
 }

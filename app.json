@@ -873,6 +873,18 @@
     {
       "name": "zmq",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zmq.png"
+    },
+    {
+      "name": "91",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/91.png"
+    },
+    {
+      "name": "madou",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/madou.png"
+    },
+    {
+      "name": "ydm",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/ydm.png"
     }
   ]
 }

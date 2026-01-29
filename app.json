@@ -801,6 +801,10 @@
     {
       "name": "quark",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/quark.png"
+    },
+    {
+      "name": "xiangrikui",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xiangrikui.png"
     }
   ]
 }

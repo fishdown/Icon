@@ -813,6 +813,10 @@
     {
       "name": "hacker",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hacker.png"
+    },
+    {
+      "name": "hxsp",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hxsp.png"
     }
   ]
 }

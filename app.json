@@ -833,6 +833,18 @@
     {
       "name": "one",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/one.png"
+    },
+    {
+      "name": "hjsq",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hjsq.png"
+    },
+    {
+      "name": "mmav",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/mmav.png"
+    },
+    {
+      "name": "txvlog",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/txvlog.png"
     }
   ]
 }

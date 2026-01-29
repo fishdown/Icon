@@ -809,6 +809,10 @@
     {
       "name": "appraven",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/appraven.png"
+    },
+    {
+      "name": "hacker",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/hacker.png"
     }
   ]
 }

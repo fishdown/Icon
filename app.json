@@ -901,6 +901,10 @@
     {
       "name": "Shadowrocket",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/Shadowrocket.png"
+    },
+    {
+      "name": "LoonLite",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/LoonLite.png"
     }
   ]
 }

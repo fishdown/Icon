@@ -897,6 +897,10 @@
     {
       "name": "kugou2",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/kugou2.png"
+    },
+    {
+      "name": "Shadowrocket",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/Shadowrocket.png"
     }
   ]
 }

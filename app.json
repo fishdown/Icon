@@ -915,10 +915,6 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-EBS.png"
     },
     {
-      "name": "byhz",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/byhz.png"
-    },
-    {
       "name": "insav",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/insav.png"
     },
@@ -949,6 +945,10 @@
     {
       "name": "zzeb-xiaoxiami2",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-xiaoxiami2.png"
+    },
+    {
+      "name": "baoyuhezi",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/baoyuhezi.png"
     }
   ]
 }

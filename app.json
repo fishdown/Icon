@@ -953,6 +953,10 @@
     {
       "name": "cookie",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/cookie.png"
+    },
+    {
+      "name": "emby",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/emby.png"
     }
   ]
 }

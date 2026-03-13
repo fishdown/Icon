@@ -957,6 +957,10 @@
     {
       "name": "adguard",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/adguard.png"
+    },
+    {
+      "name": "daojishi",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/daojishi.png"
     }
   ]
 }

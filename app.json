@@ -953,6 +953,10 @@
     {
       "name": "focos",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/focos.png"
+    },
+    {
+      "name": "B612",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/B612.png"
     }
   ]
 }

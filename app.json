@@ -953,6 +953,10 @@
     {
       "name": "emby",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/emby.png"
+    },
+    {
+      "name": "wps",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png"
     }
   ]
 }

@@ -965,6 +965,10 @@
     {
       "name": "music",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/music.png"
+    },
+    {
+      "name": "zzeb-xiaoyizi",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-xiaoyizi.png"
     }
   ]
 }

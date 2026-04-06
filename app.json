@@ -667,10 +667,6 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-nihao2.png"
     },
     {
-      "name": "zzem-xiaozhuxuan",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzem-xiaozhuxuan.png"
-    },
-    {
       "name": "xmyx",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/xmyx.png"
     },
@@ -993,6 +989,10 @@
     {
       "name": "iiosfun",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/iiosfun.png"
+    },
+    {
+      "name": "zzeb-xiaozhuxuan",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-xiaozhuxuan.png"
     }
   ]
 }

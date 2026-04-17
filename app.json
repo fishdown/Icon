@@ -1025,6 +1025,10 @@
     {
       "name": "pingme",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/pingme.png"
+    },
+    {
+      "name": "NewAPI",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/NewAPI.png"
     }
   ]
 }

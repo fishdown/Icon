@@ -1021,6 +1021,10 @@
     {
       "name": "zzeb-bingzhenxigua",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-bingzhenxigua.png"
+    },
+    {
+      "name": "pingme",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/pingme.png"
     }
   ]
 }

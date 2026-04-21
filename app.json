@@ -1023,10 +1023,6 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-bingzhenxigua.png"
     },
     {
-      "name": "pingme",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/pingme.png"
-    },
-    {
       "name": "NewAPI",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/NewAPI.png"
     },
@@ -1049,6 +1045,10 @@
     {
       "name": "WeTalk",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/WeTalk.png"
+    },
+    {
+      "name": "PingMe",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/PingMe.png"
     }
   ]
 }

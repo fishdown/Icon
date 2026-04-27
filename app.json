@@ -1053,6 +1053,10 @@
     {
       "name": "forward",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/forward.png"
+    },
+    {
+      "name": "unlockPreview",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/unlockPreview.png"
     }
   ]
 }

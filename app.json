@@ -1057,6 +1057,10 @@
     {
       "name": "unlockPreview",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/unlockPreview.png"
+    },
+    {
+      "name": "1808online",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/1808online.png"
     }
   ]
 }

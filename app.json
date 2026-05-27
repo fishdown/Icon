@@ -1117,6 +1117,10 @@
     {
       "name": "zzeb-nox",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-nox.png"
+    },
+    {
+      "name": "youtube",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/youtube.png"
     }
   ]
 }

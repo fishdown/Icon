@@ -1121,6 +1121,10 @@
     {
       "name": "youtube",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/youtube.png"
+    },
+    {
+      "name": "zzeb-bubingying",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-bubingying.png"
     }
   ]
 }

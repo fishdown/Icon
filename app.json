@@ -1257,6 +1257,10 @@
     {
       "name": "papasou",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/papasou.png"
+    },
+    {
+      "name": "AirCard",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/AirCard.png"
     }
   ]
 }

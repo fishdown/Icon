@@ -1263,10 +1263,6 @@
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/AirCard.png"
     },
     {
-      "name": "suishipaolu",
-      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/suishipaolu.png"
-    },
-    {
       "name": "panda",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/panda.png"
     },
@@ -1277,6 +1273,10 @@
     {
       "name": "zzeb-chencheng",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-chencheng.png"
+    },
+    {
+      "name": "zzeb-suishipaolu",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/zzeb-suishipaolu.png"
     }
   ]
 }

@@ -1297,6 +1297,10 @@
     {
       "name": "wloc",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wloc.png"
+    },
+    {
+      "name": "gofans",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/gofans.png"
     }
   ]
 }

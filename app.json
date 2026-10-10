@@ -1293,6 +1293,10 @@
     {
       "name": "AirBeep",
       "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/AirBeep.png"
+    },
+    {
+      "name": "wloc",
+      "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/wloc.png"
     }
   ]
 }
